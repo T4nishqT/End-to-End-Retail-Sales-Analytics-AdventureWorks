@@ -35,7 +35,7 @@ and product performance.
 Raw CSVs → Python → SQL → Excel → Power BI → Tableau
 
 ## Live Dashboard
-[View on Tableau Public]([paste-your-tableau-link-here](https://public.tableau.com/views/AdventureWorksSalesDashboard_17816063197260/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[View on Tableau Public](https://public.tableau.com/views/AdventureWorksSalesDashboard_17816063197260/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Files
 | File | Description |
