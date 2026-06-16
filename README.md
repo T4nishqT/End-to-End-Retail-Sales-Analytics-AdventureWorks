@@ -1,50 +1,46 @@
-# End-to-End-Retail-Sales-Analytics-AdventureWorks
-Analyzed 3 years of retail sales data using Python, SQL, Excel, Power BI and Tableau to uncover revenue trends, customer behavior and product performance.
-## Project Overview
-This project performs end-to-end data analysis on the AdventureWorks
-retail dataset covering sales data from 2015 to 2017.
+# End-to-End Retail Sales Analytics — AdventureWorks
 
-The goal is to answer key business questions:
-- Which products and categories generate the most revenue?
-- Which regions and customers are most profitable?
-- How has revenue trended over 3 years?
-- Which products are being returned the most?
+Analyzed 3 years of retail sales data using Python, SQL, Excel, 
+Power BI and Tableau to uncover revenue trends, customer behavior 
+and product performance.
 
-## Tools & Technologies
-- Python    → Data cleaning, merging, feature engineering
-- SQL       → Data querying, aggregations, joins
-- Excel     → Pivot tables, quick exploration, validation
-- Power BI  → Interactive business dashboard
-- Tableau   → Public portfolio dashboard with maps
+## Tools Used
+| Tool | Purpose |
+|---|---|
+| Python | Data cleaning & merging 7 CSV files |
+| SQL | KPI queries & business aggregations |
+| Excel | Pivot tables & data exploration |
+| Power BI | Interactive business dashboard |
+| Tableau | Portfolio dashboard (published online) |
 
 ## Dataset
-- Source: AdventureWorks (Microsoft Sample Dataset via Kaggle)
-- Size: 3 years of sales data (2015, 2016, 2017)
-- Tables: Sales, Products, Customers, Territories, Returns
+- Source: AdventureWorks (Microsoft sample dataset)
+- 56,000+ sales records across 2015, 2016, 2017
+- 7 CSV files merged into one master table
 
-## Key Business Questions Answered
-1. Total revenue and profit by year
-2. Top 10 best selling products
-3. Sales performance by region and territory
-4. Customer segmentation by purchase behavior
-5. Monthly and seasonal revenue trends
-6. Product return rate analysis
+## Key Business Questions
+- Which products and categories generate the most revenue?
+- How has revenue trended over 3 years?
+- Which regions are most profitable?
+- Who are the top 10 customers by spend?
+- Which products have the highest return rate?
 
 ## Key Insights
-- Revenue grew 23% from 2015 to 2017
-- Bikes category contributed 65% of total revenue
-- Pacific region outperformed all other territories
-- December consistently peaks in sales every year
+- Total revenue: $24.91M across 3 years
+- Bikes category drives 95% of total revenue
+- Mountain-200 Black is the top selling product
+- Revenue grew consistently year over year
 
 ## Project Workflow
-Raw CSV Files
-     ↓
-Python  → Clean, merge, engineer features
-     ↓
-SQL     → Query KPIs and business metrics
-     ↓
-Excel   → Validate and explore with pivot tables
-     ↓
-Power BI → Interactive dashboard for business users
-     ↓
-Tableau → Public dashboard for portfolio
+Raw CSVs → Python → SQL → Excel → Power BI → Tableau
+
+## Live Dashboard
+[View on Tableau Public](paste-your-tableau-link-here)
+
+## Files
+| File | Description |
+|---|---|
+| cleaning.ipynb | Python data cleaning & merging |
+| queries.sql | SQL business queries |
+| adventureworks.pbix | Power BI dashboard |
+| master_sales.csv | Clean merged dataset |
